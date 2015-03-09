@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to="gwtasync">
+    <inherits name="com.google.gwt.user.User"/>
+    <!-- Specify the app entry point class. -->
+    <entry-point class="zufarfakhurtdinov.client.App" />
+
+    <set-property name="user.agent" value="gecko1_8,safari"/>
+    <!-- Specify the paths for translatable code -->
+    <source path='client'/>
+
+    <add-linker name="xsiframe"/>
+    <set-configuration-property name="devModeRedirectEnabled" value="true"/>
+    <!-- enable source maps -->
+    <set-property name="compiler.useSourceMaps" value="true" />
+</module>
